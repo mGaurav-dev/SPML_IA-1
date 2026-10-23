@@ -1,0 +1,33 @@
+{
+  "dataset_path": "auto-detected",
+  "target_household": "MAC000002",
+  "train_rows": 16865,
+  "val_rows": 3614,
+  "test_rows": 3614,
+  "features": [
+    "lag_1",
+    "lag_2",
+    "lag_48",
+    "rolling_mean_4",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "month"
+  ],
+  "target": "energy_kwh",
+  "dp_epsilons": [
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "dp_repeats": 5,
+  "protected_unit": "Single 30-minute observation record (x_i, y_i)",
+  "adjacency_definition": "Bounded differential privacy: two datasets D and D' differ by replacing at most one record (x, y) with (x', y'), where |D| = |D'|.",
+  "formal_guarantee": "Record-level (epsilon, 0)-Differential Privacy via Diffprivlib LinearRegression (covariance matrix perturbation). Note: this protects individual half-hourly readings, not entire multi-year household time series.",
+  "smoke_test": false
+}

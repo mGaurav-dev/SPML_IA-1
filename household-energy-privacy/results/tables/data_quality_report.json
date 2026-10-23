@@ -1,0 +1,22 @@
+{
+  "initial_raw_rows": 24158,
+  "rows_dropped_invalid_timestamp": 0,
+  "duplicate_timestamps_removed": 17,
+  "initial_null_energy_values": 1,
+  "missing_energy_values_imputed_ffill": 1,
+  "residual_missing_values_imputed_median": 0,
+  "final_cleaned_rows": 24141,
+  "cadence_minutes": 30,
+  "cadence_conformity_ratio": 0.9997,
+  "min_timestamp": "2012-10-12 00:30:00",
+  "max_timestamp": "2014-02-28 00:00:00",
+  "energy_kwh_min": 0.0,
+  "energy_kwh_median": 0.158,
+  "energy_kwh_max": 2.994,
+  "raw_file": "E:\\SPML\\IA1\\LCL-June2015v2_0.csv",
+  "total_raw_rows_scanned": 1000000,
+  "selected_rows_count": 24158,
+  "target_household_filter": "MAC000002",
+  "distinct_households_in_data": 1,
+  "raw_null_or_invalid_values_encountered": 29
+}

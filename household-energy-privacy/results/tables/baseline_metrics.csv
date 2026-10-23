@@ -1,0 +1,3 @@
+mae,rmse,r2,samples,model,fit_time_sec,predict_time_sec,train_samples,test_samples,privacy_mechanism,epsilon,alpha
+0.10808,0.20291,0.51157,3614,Persistence (Lag-1),0.0,2e-06,16865,3614,None (Non-private deterministic baseline),inf,
+0.10574,0.18637,0.58798,3614,Ridge Regression (Non-Private),0.001596,0.000251,16865,3614,None (Non-private Empirical Risk Minimization),inf,1.0

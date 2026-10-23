@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Large raw and processed datasets (never commit raw meter data)
+data/raw/*.csv
+data/processed/*.csv
+*.csv.gz
+*.zip
+LCL-June2015v2*.csv
+
+# Operating System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Local experiment outputs that should be kept locally or regenerated
+results/logs/*.log

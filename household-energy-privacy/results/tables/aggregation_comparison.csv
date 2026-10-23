@@ -1,0 +1,4 @@
+resolution,duration,record_count,mean_energy,std_energy,min_energy,max_energy,peak_to_average_ratio,temporal_detail_retained,residual_disclosure_risk,formal_dp_guarantee
+30min,Half-Hourly (Native),24141,0.2525,0.2471,0.0,2.994,11.857,Full,High (reveals exact appliance activations & occupancy bursts),None (Heuristic aggregation only; vulnerable to differencing attacks)
+1h,Hourly Sum,12097,0.5039,0.4463,0.0,4.586,9.101,Moderate,Moderate (smooths micro-events; daily schedules still detectable),None (Heuristic aggregation only; vulnerable to differencing attacks)
+1d,Daily Sum,505,12.0711,4.4946,0.186,39.284,3.254,Coarse,"Low-to-Moderate (reveals total daily usage, vacation periods, baseline)",None (Heuristic aggregation only; vulnerable to differencing attacks)

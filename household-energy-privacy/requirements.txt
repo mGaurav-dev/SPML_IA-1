@@ -1,0 +1,9 @@
+# Pinned core dependencies for Household Energy Differential Privacy ML project
+# Compatible with Python 3.10 and 3.11 on Windows
+numpy>=1.26.0,<2.0.0
+pandas>=2.1.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+diffprivlib>=0.6.6
+matplotlib>=3.8.0
+pytest>=7.4.0

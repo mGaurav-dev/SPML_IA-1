@@ -1,0 +1,9 @@
+epsilon,mean_mae,std_mae,mean_rmse,std_rmse,mean_r2,utility_loss_pct,n_repeats,avg_fit_time_sec,protected_unit,adjacency,guarantee_scope
+0.05,8868044.9412,17732258.6903,10618291.28312,21231513.19193,-6684957071151299.0,5697425066.67,5,0.0196,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+0.1,7618487.44583,15235388.29024,9073350.06215,18144499.88511,-4882096018941336.0,4868460522.5,5,0.0169,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+0.2,283.71439,88.73032,382.39073,115.73981,-1893511.23985,205078.26,5,0.0166,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+0.5,146.13865,117.50388,208.81744,174.29439,-877643.57811,111944.56,5,0.0167,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+1.0,84.3972,162.96053,122.56897,237.0372,-844742.60241,65666.47,5,0.0137,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+2.0,0.1785,0.12821,0.29196,0.19057,-0.442,56.66,5,0.0079,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+5.0,0.1076,0.00078,0.18868,0.0013,0.57766,1.24,5,0.0079,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
+10.0,0.10658,0.00027,0.18755,0.00055,0.58273,0.63,5,0.0081,"Single 30-min record (x_i, y_i)",Replace one record,Record-level DP; excludes group household protection
